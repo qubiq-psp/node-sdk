@@ -1,5 +1,8 @@
 # @qubiq-psp/sdk
 
+> [!IMPORTANT]
+> **This repository moved to [qubiq-psp/sdk](https://github.com/qubiq-psp/sdk/tree/main/packages/node)** (`packages/node`) and is archived, read-only. `@qubiq-psp/sdk` is released from there since 2026-11-17; its full history, including this repository's, is kept in that folder, and its release tags are `node-v<version>`. Open issues and pull requests in [qubiq-psp/sdk](https://github.com/qubiq-psp/sdk).
+
 Node.js SDK for the PSP merchant API. Use it on your backend to accept crypto payments: create invoices, check their state, manage the webhook endpoint, and verify the webhooks the platform sends you.
 
 - Every request is signed with HMAC-SHA256 (scheme `v1`). The SDK handles query encoding, body bytes, timestamps and nonces.
